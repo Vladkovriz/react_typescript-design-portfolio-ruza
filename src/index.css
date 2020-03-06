@@ -1,20 +1,20 @@
-* {
-  background-color: #eee;;
-}
 body {
   margin: 0;
+  background-color: #eee;
+}
+#root {
+  margin: 22px;
 }
 .dashboard {
-  margin: 22px;
   background-color: #fff;
   width: calc(100vw- 44px);
-  height: 100vh;
+  min-height: calc(100vh - 44px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.dashboard header {
+/* .dashboard header {
   width: 100%;
   height: 150px;
   background-color: #fff;
@@ -24,8 +24,10 @@ body {
   justify-content: space-between;
   border: 1px solid black;
 
+} */
+.dashboard .container {
+  min-height: calc(100vh - 380px);
 }
-
 .dashboard footer > .top-footer {
   width: 100%;
   height: 110px;
@@ -35,5 +37,5 @@ body {
 .dashboard footer > .bottom-footer {
   width: 100%;
   height: 120px;
-  background-color: #333333;;
+  background-color: #333333;
 }
