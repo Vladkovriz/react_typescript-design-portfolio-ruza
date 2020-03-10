@@ -23,13 +23,13 @@ import {
 
 import IconSVG from "./IconSVG";
 
-import WA from "../assets/WA.svg";
-import Viber from "../assets/viber.svg";
-import Telegram from "../assets/Telegram.svg";
-import Instagram from "../assets/Instagram.svg";
-import In from "../assets/In.svg";
+import WA from "../assets/Social/WA.svg";
+import Viber from "../assets/Social/viber.svg";
+import Telegram from "../assets/Social/Telegram.svg";
+import Instagram from "../assets/Social/Instagram.svg";
+import In from "../assets/Social/In.svg";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     height: "150px",
     flexGrow: 1,
@@ -59,7 +59,11 @@ const useStyles = makeStyles(theme => ({
     "& a": {
       whiteSpace: "nowrap",
       textDecoration: "none",
-      color: "black"
+      color: "black",
+      fontFamily: "Fira Sans",
+      textTransform: "uppercase",
+      fontStyle: "Regular",
+      fontSize: "14px"
     }
   },
   menuListIcon: {
