@@ -38,25 +38,48 @@ const useStyles = makeStyles(theme => ({
       backgroundColor: "white"
     }
   },
+  container: {
+    maxWidth: "1400px",
+    width: "100%",
+    margin: "0 auto",
+    boxShadow: "none"
+  },
   toolbar: {
     height: "150px",
     display: "flex",
     justifyContent: "space-between"
   },
-  boxIcon: {
-    display: "flex"
+  boxMenu: {
+    display: "flex",
+    width: "auto"
   },
   menuList: {
     display: "flex",
-    marginRight: theme.spacing(2),
+    // marginRight: theme.spacing(2),
     "& a": {
-      whiteSpace: "nowrap"
+      whiteSpace: "nowrap",
+      textDecoration: "none",
+      color: "black"
     }
   },
   menuListIcon: {
     display: "flex",
-    width: "140px",
-    justifyContent: "space-between"
+    maxWidth: "172px",
+    justifyContent: "space-between",
+    position: "relative",
+    padding: theme.spacing(1, 2, 1, 1),
+    // boxSizing: "border-box",
+    "&::after": {
+      content: "' '",
+      width: "1px",
+      height: "38px",
+      left: "0",
+      backgroundColor: "black",
+      position: "absolute"
+    },
+    "& > li": {
+      padding: theme.spacing(1)
+    }
   },
   title: {
     flexGrow: 1
@@ -74,14 +97,14 @@ export default function Header() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.container}>
         <Toolbar className={classes.toolbar}>
           <Avatar
             variant="square"
             src={LogoIcon}
             className={classes.square}
           ></Avatar>
-          <Box className={classes.boxIcon}>
+          <Box className={classes.boxMenu}>
             <List className={classes.menuList}>
               <ListItem>
                 <Link to={path.HOME}>Home</Link>
