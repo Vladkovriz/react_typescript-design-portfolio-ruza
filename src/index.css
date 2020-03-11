@@ -26,20 +26,20 @@ body {
 
 } */
 .container {
-  max-width: 1400px;
+  max-width: 900px;
   min-height: calc(100vh - 380px);
   margin: 0 auto 40px;
   padding: 0 10px;
 }
 .dashboard footer > .top-footer {
   width: 100%;
-  height: 110px;
+  height: 125px;
   background-color: #3eb489;
   margin-top: 40px;
 }
 
 .dashboard footer > .bottom-footer {
   width: 100%;
-  height: 120px;
+  height: 200px;
   background-color: #333333;
 }

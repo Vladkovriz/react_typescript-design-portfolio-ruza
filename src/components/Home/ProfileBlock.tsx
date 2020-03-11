@@ -4,19 +4,21 @@ import { makeStyles } from "@material-ui/core/styles";
 import RuzaPhoto from "../../assets/Ruza.png";
 const useStyle = makeStyles((theme) => ({
   root: {
-    minHeight: "400px",
-    width: "100%",
-    padding: "3px",
+    width: "calc(100% - 6px)",
+    margin: "3px",
     display: "flex",
     position: "relative",
     overflow: "hidden",
+    [theme.breakpoints.down(900)]: {
+      minHeight: "280px"
+    },
     "&:hover .infoContent": {
       left: "0",
       transition: ".5s"
     },
     "&:hover .maskContent": {
-      width: "calc(100% - 300px)",
-      left: "300px",
+      // width: "calc(100% - 6px)",
+      left: "50px",
       transition: ".5s"
     },
     "& > .infoContent": {
@@ -26,18 +28,16 @@ const useStyle = makeStyles((theme) => ({
       backgroundColor: "blue",
       position: "absolute",
       left: "-300px",
-      transition: ".5s"
+      transition: ".5s",
+      zIndex: "10"
     },
     "& > .maskContent": {
       width: "100%",
-      height: "100%",
-      // height: "100%",
-      backgroundColor: "green",
-      position: "absolute",
+      position: "relative",
       left: "0",
       transition: ".5s",
       "& > img": {
-        width: "100%",
+        objectFit: "cover",
         height: "100%"
       },
       "& > h1": {
@@ -58,7 +58,6 @@ type PropsContentBox = {
 };
 
 export const ProfileBlock: React.FC<PropsContentBox> = (props) => {
-  console.log(props);
   const classes = useStyle();
   return (
     <div className={classes.root} style={{ gridColumn: props.columns }}>

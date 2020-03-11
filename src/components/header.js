@@ -5,7 +5,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import { deepOrange, green } from "@material-ui/core/colors";
 
 import * as path from "../constants/routes";
-import LogoIcon from "../assets/logo.png";
+import LogoIcon from "../assets/logoBlack.png";
 import {
   ListItem,
   Avatar,
@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
     }
   },
   container: {
-    maxWidth: "1400px",
+    maxWidth: "900px",
     width: "100%",
     margin: "0 auto",
     boxShadow: "none"

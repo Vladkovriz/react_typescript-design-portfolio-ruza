@@ -11,7 +11,6 @@ const useStyles = makeStyles(theme => ({
 const IconSVG = (props: any) => {
     const classes = useStyles();
     const {icon, size} = props;
-    console.log(props)
     return (
         <img src={icon} alt="" style={{height: size}} className={classes.icon}/>
     )

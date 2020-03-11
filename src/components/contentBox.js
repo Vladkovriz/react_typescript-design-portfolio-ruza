@@ -6,7 +6,7 @@ import IconSVG from "./IconSVG";
 import Arrow from "../assets/Arrow.svg";
 const useStyle = makeStyles((theme) => ({
   root: {
-    minHeight: "280px",
+    minHeight: "216px",
     width: "100%",
     display: "flex",
     position: "relative",
@@ -56,7 +56,6 @@ const useStyle = makeStyles((theme) => ({
 // };
 
 export const ContentBox = ({ columns, rows, rootBlock, infoBlock }) => {
-  console.log(infoBlock);
   const classes = useStyle();
   return (
     <div

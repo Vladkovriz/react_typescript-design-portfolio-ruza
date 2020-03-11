@@ -18,7 +18,6 @@ type Props = {
 };
 
 export const GridContainer: React.FC<Props> = (props: any) => {
-  console.log(props);
   const classes = useStyles();
   return <Box className={classes.root}>{props.children}</Box>;
 };
