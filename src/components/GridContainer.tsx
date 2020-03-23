@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
     margin: "3px",
     display: "grid",
     gridTemplateColumns: "repeat( 4, 1fr )",
-    gridTemplateRow: "repeat( 2, 1fr )",
+    gridTemplateRows: "repeat( 2, 1fr )",
     gridGap: "6px"
   }
 }));

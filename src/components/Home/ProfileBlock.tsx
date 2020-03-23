@@ -12,20 +12,18 @@ const useStyle = makeStyles((theme) => ({
     [theme.breakpoints.down(900)]: {
       minHeight: "280px"
     },
-    "&:hover .infoContent": {
-      left: "0",
-      transition: ".5s"
-    },
-    "&:hover .maskContent": {
-      // width: "calc(100% - 6px)",
-      left: "50px",
-      transition: ".5s"
-    },
+    // "&:hover .infoContent": {
+    //   left: "0",
+    //   transition: ".5s"
+    // },
+    // "&:hover .maskContent": {
+    //   left: "50px",
+    //   transition: ".5s"
+    // },
     "& > .infoContent": {
       maxWidth: "300px",
       width: "100%",
       height: "100%",
-      backgroundColor: "blue",
       position: "absolute",
       left: "-300px",
       transition: ".5s",
@@ -42,12 +40,15 @@ const useStyle = makeStyles((theme) => ({
       },
       "& > h1": {
         position: "absolute",
+        top: "50%",
+        transform: "translate(0, -50%);",
         margin: "0 auto 0 90px",
         fontFamily: "Fira Sans",
         fontStyle: "normal",
         fontWeight: "900",
         fontSize: "38px",
-        zIndex: "10"
+        zIndex: "10",
+        color: "white"
       }
     }
   }
@@ -61,9 +62,13 @@ export const ProfileBlock: React.FC<PropsContentBox> = (props) => {
   const classes = useStyle();
   return (
     <div className={classes.root} style={{ gridColumn: props.columns }}>
-      <div className={"infoContent"}>asdfwws12 12ds12</div>
+      {/* <div className={"infoContent"}>asdfwws12 12ds12</div> */}
       <div className={"maskContent"}>
-        <img src={RuzaPhoto} />
+        <img
+          src={
+            "https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/_tku-Ruza.png"
+          }
+        />
         <h1>Графический дизайнер</h1>
       </div>
     </div>
