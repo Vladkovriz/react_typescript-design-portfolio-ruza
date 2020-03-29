@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react_typescript-design-portfolio-ruza/static/css/main.3746942f.chunk.css",
-    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.b5d63f28.chunk.js",
-    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.b5d63f28.chunk.js.map",
+    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.66731550.chunk.js",
+    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.66731550.chunk.js.map",
     "runtime-main.js": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js",
     "runtime-main.js.map": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js.map",
-    "static/js/2.781bb2ea.chunk.js": "/react_typescript-design-portfolio-ruza/static/js/2.781bb2ea.chunk.js",
-    "static/js/2.781bb2ea.chunk.js.map": "/react_typescript-design-portfolio-ruza/static/js/2.781bb2ea.chunk.js.map",
+    "static/js/2.cdd33714.chunk.js": "/react_typescript-design-portfolio-ruza/static/js/2.cdd33714.chunk.js",
+    "static/js/2.cdd33714.chunk.js.map": "/react_typescript-design-portfolio-ruza/static/js/2.cdd33714.chunk.js.map",
     "index.html": "/react_typescript-design-portfolio-ruza/index.html",
-    "precache-manifest.5a3bda21b30bcd8b1593c1d5869e5b1f.js": "/react_typescript-design-portfolio-ruza/precache-manifest.5a3bda21b30bcd8b1593c1d5869e5b1f.js",
+    "precache-manifest.44aa113a8d2c94f6f5a3510b9bc3deb7.js": "/react_typescript-design-portfolio-ruza/precache-manifest.44aa113a8d2c94f6f5a3510b9bc3deb7.js",
     "service-worker.js": "/react_typescript-design-portfolio-ruza/service-worker.js",
     "static/css/main.3746942f.chunk.css.map": "/react_typescript-design-portfolio-ruza/static/css/main.3746942f.chunk.css.map",
-    "static/js/2.781bb2ea.chunk.js.LICENSE.txt": "/react_typescript-design-portfolio-ruza/static/js/2.781bb2ea.chunk.js.LICENSE.txt",
+    "static/js/2.cdd33714.chunk.js.LICENSE.txt": "/react_typescript-design-portfolio-ruza/static/js/2.cdd33714.chunk.js.LICENSE.txt",
     "static/media/AllWorkIcon.svg": "/react_typescript-design-portfolio-ruza/static/media/AllWorkIcon.952e8009.svg",
     "static/media/Arrow.svg": "/react_typescript-design-portfolio-ruza/static/media/Arrow.e95fe7d8.svg",
     "static/media/Black_In.svg": "/react_typescript-design-portfolio-ruza/static/media/Black_In.4f803bf6.svg",
@@ -38,8 +38,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b2ac1100.js",
-    "static/js/2.781bb2ea.chunk.js",
+    "static/js/2.cdd33714.chunk.js",
     "static/css/main.3746942f.chunk.css",
-    "static/js/main.b5d63f28.chunk.js"
+    "static/js/main.66731550.chunk.js"
   ]
 }
