@@ -2,6 +2,7 @@
   "name": "react_typescript-design-portfolio-ruza",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Vladkovriz.github.io/react_typescript-design-portfolio-ruza",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
     "@material-ui/icons": "^4.9.1",
@@ -15,6 +16,7 @@
     "@types/react-redux": "^7.1.7",
     "@types/react-router-dom": "^5.1.3",
     "firebase": "^7.12.0",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-redux": "^7.2.0",
@@ -28,10 +30,12 @@
     "typescript": "^3.7.5"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

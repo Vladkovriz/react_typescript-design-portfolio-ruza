@@ -26,15 +26,15 @@ const useStyles = makeStyles((theme) => ({
 const menuListLink = [
   {
     link: path.HOME,
-    name: "Home"
+    name: "Главная"
   },
   {
     link: path.ABOUT_ME,
-    name: "About Me"
+    name: "Обо мне"
   },
   {
     link: path.PORTFOLIO,
-    name: "Portfolio"
+    name: "Портфолио"
   },
   {
     link: path.FAQ,
@@ -42,7 +42,7 @@ const menuListLink = [
   },
   {
     link: path.CONTACTS,
-    name: "Contacts"
+    name: "Контакты"
   }
 ];
 
@@ -53,6 +53,7 @@ export const NavigationMenu = (props) => {
     <List className={classes.menuList}>
       {menuListLink.map((item, id) => (
         <ListItem
+          key={id}
           style={
             props.location.pathname === item.link
               ? { borderBottom: "1px solid #35D69B" }

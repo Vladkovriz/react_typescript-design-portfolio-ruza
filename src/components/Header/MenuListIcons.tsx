@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "172px",
     justifyContent: "space-between",
     position: "relative",
-    padding: theme.spacing(1, 2, 1, 1),
+    padding: theme.spacing(1, 0, 1, 1),
     // boxSizing: "border-box",
     "&::after": {
       content: "' '",

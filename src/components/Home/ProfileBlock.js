@@ -1,7 +1,7 @@
 import React from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
-import RuzaPhoto from "../../assets/Ruza.png";
+import RuzaPhoto from "assets/Ruza.png";
 const useStyle = makeStyles((theme) => ({
   root: {
     width: "calc(100% - 6px)",
@@ -54,21 +54,13 @@ const useStyle = makeStyles((theme) => ({
   }
 }));
 
-type PropsContentBox = {
-  columns?: string;
-};
-
-export const ProfileBlock: React.FC<PropsContentBox> = (props) => {
+export const ProfileBlock = (props) => {
   const classes = useStyle();
   return (
     <div className={classes.root} style={{ gridColumn: props.columns }}>
       {/* <div className={"infoContent"}>asdfwws12 12ds12</div> */}
       <div className={"maskContent"}>
-        <img
-          src={
-            "https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/_tku-Ruza.png"
-          }
-        />
+        <img src={RuzaPhoto} />
         <h1>Графический дизайнер</h1>
       </div>
     </div>
