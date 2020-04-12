@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f696e0ce83293846a3a3897ff71e9f8c",
+    "revision": "f67f89afff2e15d7da164eff2c938e4a",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "5d4db658dc33118b911a",
-    "url": "/react_typescript-design-portfolio-ruza/static/css/main.3746942f.chunk.css"
+    "revision": "c3a7c5ae27d19a55edf5",
+    "url": "/react_typescript-design-portfolio-ruza/static/css/main.85f9b698.chunk.css"
   },
   {
-    "revision": "03818e8a7b2cd520a742",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/2.cdd33714.chunk.js"
+    "revision": "43c0245f7e607516c12b",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/2.a6dbc12c.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/2.cdd33714.chunk.js.LICENSE.txt"
+    "url": "/react_typescript-design-portfolio-ruza/static/js/2.a6dbc12c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5d4db658dc33118b911a",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.63d0dbf9.chunk.js"
+    "revision": "c3a7c5ae27d19a55edf5",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.553114f0.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
     "url": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js"
+  },
+  {
+    "revision": "e6531bf0d10028bde4883e361fa4fdfd",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_In.e6531bf0.svg"
+  },
+  {
+    "revision": "f8812312d3516194647c8bd12f66a728",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Insta.f8812312.svg"
+  },
+  {
+    "revision": "d85eb5e9181bd56e88cf13738d39282a",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Telegram.d85eb5e9.svg"
+  },
+  {
+    "revision": "b9941fd100b0b766f93e8412457ad666",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Viber.b9941fd1.svg"
+  },
+  {
+    "revision": "201501e8498cc3f6e7bd6a414d606d88",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_WA.201501e8.svg"
   },
   {
     "revision": "952e80090b48a1d931908ff1c30452d2",
