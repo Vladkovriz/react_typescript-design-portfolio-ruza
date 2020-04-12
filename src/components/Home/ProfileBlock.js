@@ -4,8 +4,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import RuzaPhoto from "assets/Ruza.png";
 const useStyle = makeStyles((theme) => ({
   root: {
-    width: "calc(100% - 6px)",
-    margin: "3px",
+    width: "100% ",
+    marginBottom: "10px",
     display: "flex",
     position: "relative",
     overflow: "hidden",

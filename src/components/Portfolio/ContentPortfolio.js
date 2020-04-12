@@ -11,10 +11,11 @@ const useStyles = makeStyles((theme) => ({
     width: "100%",
     height: "auto",
     display: "grid",
+    marginBottom: "10px",
     gridTemplateColumns: "repeat(auto-fit,minmax(180px, 220px))",
     // gridTemplateRows: "repeat(3,minmax(180px, 220px))",
     gridAutoFlow: "row dense",
-    gridGap: "6px"
+    gridGap: "10px"
   },
   item: {
     minHeight: "216px",
@@ -23,13 +24,16 @@ const useStyles = makeStyles((theme) => ({
     position: "relative",
     overflow: "hidden",
     color: "#43d69b",
+    background: "black",
 
     "&:hover .infoContent": {
       bottom: "0",
       opacity: "1",
       transition: ".5s"
     },
-
+    "&:hover .maskContent": {
+      opacity: "1",
+    },
     "& > .infoContent": {
       display: "flex",
       justifyContent: "space-between",
@@ -48,7 +52,9 @@ const useStyles = makeStyles((theme) => ({
       height: "100%",
       position: "absolute",
       left: "0",
-      transition: ".5s"
+      transition: ".5s",
+      opacity: ".5",
+
     }
   }
 }));

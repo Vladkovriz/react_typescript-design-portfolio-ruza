@@ -1,6 +1,10 @@
 body {
   margin: 0;
   background-color: #eee;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
 }
 /* .dashboard header {
   width: 100%;

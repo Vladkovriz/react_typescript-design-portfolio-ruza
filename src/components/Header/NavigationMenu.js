@@ -11,14 +11,42 @@ const useStyles = makeStyles((theme) => ({
   menuList: {
     display: "flex",
     // marginRight: theme.spacing(2),
-    "& a": {
-      whiteSpace: "nowrap",
-      textDecoration: "none",
-      color: "black",
-      fontFamily: "Fira Sans",
-      textTransform: "uppercase",
-      fontStyle: "Regular",
-      fontSize: "14px"
+    "& li": {
+      "& a": {
+        whiteSpace: "nowrap",
+        textDecoration: "none",
+        color: "black",
+        fontFamily: "Fira Sans",
+        textTransform: "uppercase",
+        fontStyle: "Regular",
+        fontSize: "14px",
+
+      },
+    },
+    "& li.defaultLink": {
+      "&:before": {
+        content: "' '",
+        width: "100%",
+        height: "1px",
+        background: "#35D69B",
+        position: "absolute",
+        bottom: "-10px",
+        left: "0",
+        opacity: "0",
+        transition: ".2s"
+      },
+      "&:hover": {
+        "&:before": {
+          bottom: "0",
+          left: "0",
+          opacity: "1",
+          transition: ".2s"
+        }
+      },
+
+    },
+    "& li.activeLink": {
+      borderBottom: "1px solid #35D69B"
     }
   }
 }));
@@ -54,11 +82,7 @@ export const NavigationMenu = (props) => {
       {menuListLink.map((item, id) => (
         <ListItem
           key={id}
-          style={
-            props.location.pathname === item.link
-              ? { borderBottom: "1px solid #35D69B" }
-              : { borderBottom: "0px" }
-          }
+          className={props.location.pathname === item.link ? "activeLink" : "defaultLink"}
         >
           <Link to={item.link}>{item.name}</Link>
         </ListItem>

@@ -5,11 +5,11 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    margin: "3px",
+    marginBottom: "10px",
     display: "grid",
     gridTemplateColumns: "repeat( 4, 1fr )",
     gridTemplateRows: "repeat( 2, 1fr )",
-    gridGap: "6px"
+    gridGap: "10px"
   }
 }));
 
