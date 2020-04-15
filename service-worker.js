@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react_typescript-design-portfolio-ruza/precache-manifest.68022ecffbcc95c109917f994c2f47c6.js"
+  "/react_typescript-design-portfolio-ruza/precache-manifest.126e5fe9afa088e71e01612d8f0e0b48.js"
 );
 
 self.addEventListener('message', (event) => {

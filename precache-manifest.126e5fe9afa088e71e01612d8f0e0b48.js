@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f67f89afff2e15d7da164eff2c938e4a",
+    "revision": "1eeffccff746dd662f3f2eaebf0e4680",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "c3a7c5ae27d19a55edf5",
+    "revision": "1230e44e4bd062c6ad3d",
     "url": "/react_typescript-design-portfolio-ruza/static/css/main.85f9b698.chunk.css"
   },
   {
-    "revision": "43c0245f7e607516c12b",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/2.a6dbc12c.chunk.js"
+    "revision": "87589bb129de25cfb508",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/2.d0c88395.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/2.a6dbc12c.chunk.js.LICENSE.txt"
+    "url": "/react_typescript-design-portfolio-ruza/static/js/2.d0c88395.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c3a7c5ae27d19a55edf5",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.553114f0.chunk.js"
+    "revision": "1230e44e4bd062c6ad3d",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.d0229b22.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
     "url": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js"
+  },
+  {
+    "revision": "10868ead8cb9d7aa013d975c749816ef",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Be.10868ead.png"
   },
   {
     "revision": "e6531bf0d10028bde4883e361fa4fdfd",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e95fe7d837f5c0b5da499c7bd5658456",
     "url": "/react_typescript-design-portfolio-ruza/static/media/Arrow.e95fe7d8.svg"
+  },
+  {
+    "revision": "08b4464dadae91cbfbeb44673f3f6bc6",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_Be.08b4464d.png"
   },
   {
     "revision": "4f803bf6a6f24ffbbb1316dc3ca27b56",
