@@ -16,11 +16,18 @@ const useStyle = makeStyles((theme) => ({
     position: "relative",
     overflow: "hidden",
     color: "#43d69b",
+    background: "black",
 
     "&:hover .infoContent": {
       bottom: "0",
       opacity: "1",
       transition: ".5s"
+    },
+    "&:hover .maskContent": {
+      bottom: "0",
+      opacity: "1",
+      transition: ".5s",
+
     },
 
     "& > .infoContent": {
@@ -41,7 +48,8 @@ const useStyle = makeStyles((theme) => ({
       height: "100%",
       position: "absolute",
       left: "0",
-      transition: ".5s"
+      transition: ".5s",
+      opacity: ".5",
     }
   },
   headingText: {
@@ -106,7 +114,8 @@ export const ContentBox = ({
             style={{
               background: "#222222",
               padding: "50px 10px",
-              boxSizing: "border-box"
+              boxSizing: "border-box",
+              opacity: "1"
             }}
           >
             <Box
@@ -155,7 +164,8 @@ export const ContentBox = ({
             style={{
               background: "#222222",
               padding: "15px",
-              boxSizing: "border-box"
+              boxSizing: "border-box",
+              opacity: "1"
             }}
           >
             <Box
