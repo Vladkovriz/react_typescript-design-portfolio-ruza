@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c1a717f64183302558f814316c863ee",
+    "revision": "c2ec5d5f143ff46be977eedb357487b2",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "d09a71abc5ed70aa046a",
-    "url": "/react_typescript-design-portfolio-ruza/static/css/main.ce05da51.chunk.css"
+    "revision": "ea17d26aef68986d4f26",
+    "url": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css"
   },
   {
     "revision": "ba592fa75e8b0f95893e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d09a71abc5ed70aa046a",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.f24c74c9.chunk.js"
+    "revision": "ea17d26aef68986d4f26",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.4a5394b5.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/media/Active_In.e6531bf0.svg"
   },
   {
-    "revision": "f8812312d3516194647c8bd12f66a728",
-    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Insta.f8812312.svg"
+    "revision": "eb7aa0d8aa9802186b817e4ab72f387c",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Insta.eb7aa0d8.png"
   },
   {
     "revision": "d85eb5e9181bd56e88cf13738d39282a",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/media/Active_Viber.b9941fd1.svg"
   },
   {
-    "revision": "201501e8498cc3f6e7bd6a414d606d88",
-    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_WA.201501e8.svg"
+    "revision": "376c1e8a921ebc1cbcaa2c93b127a237",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Active_WA.376c1e8a.png"
   },
   {
     "revision": "952e80090b48a1d931908ff1c30452d2",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/media/Black_In.4f803bf6.svg"
   },
   {
-    "revision": "d8d6499f1d3d29685ed9f1b3b7400323",
-    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_Instagram.d8d6499f.svg"
+    "revision": "419e42a97dd7a569afcfb271c92214af",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_Instagram.419e42a9.svg"
   },
   {
     "revision": "5dbe5705da7e64eae4fde92725d81386",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/media/Black_Viber.228740d0.svg"
   },
   {
-    "revision": "971ec66505c5657ce3a234732d127b1b",
-    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_WA.971ec665.svg"
+    "revision": "2f7aa9348f75488ce4fb9db071aab49d",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_WA.2f7aa934.png"
   },
   {
     "revision": "8bba76c2d9cbfafb18b79360338ca113",
