@@ -1,18 +1,16 @@
 import React from "react";
 
-import {makeStyles} from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 import { GridContainer } from "components/GridContainer";
 import { ContentBox } from "components/contentBox";
 import { ProfileBlock } from "components/Home/ProfileBlock";
 
-import {container} from './content'
+import { container } from "./content";
 
-const useStyles = makeStyles(theme => ({
-    root: {
-
-    }
-}))
+const useStyles = makeStyles((theme) => ({
+  root: {},
+}));
 
 const Home = (props) => {
   return (

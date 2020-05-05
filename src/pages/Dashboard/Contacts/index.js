@@ -11,21 +11,21 @@ const useStyles = makeStyles((theme) => ({
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr 1fr",
     gridTemplateRows: "1fr 1fr",
-    gridGap: "6px"
+    gridGap: "10px",
   },
   formContainer: {
     background: "#EEEEEE",
     padding: "20px",
 
     gridColumn: "1/3",
-    gridRow: "1/3"
+    gridRow: "1/3",
   },
   form: {
     minHeight: "350px",
     marginTop: "20px",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
   inputText: {
     background: "#d9d9d9",
@@ -34,12 +34,12 @@ const useStyles = makeStyles((theme) => ({
       "&::placeholder": {
         color: "black",
         fontSize: "14px",
-        opacity: "1"
-      }
+        opacity: "1",
+      },
     },
     "&::before": {
-      borderBottom: "0"
-    }
+      borderBottom: "0",
+    },
   },
   textArea: {
     background: "#d9d9d9",
@@ -48,13 +48,13 @@ const useStyles = makeStyles((theme) => ({
       "&::placeholder": {
         color: "black",
         fontSize: "14px",
-        opacity: "1"
-      }
+        opacity: "1",
+      },
     },
     "&::before": {
-      borderBottom: "0"
-    }
-  }
+      borderBottom: "0",
+    },
+  },
 }));
 
 const Contacts = (props) => {
@@ -67,7 +67,7 @@ const Contacts = (props) => {
             style={{
               fontFamily: "Fira Sans",
               fontSize: "12px",
-              lineHeight: "14px"
+              lineHeight: "14px",
             }}
           >
             Пожалуйста, заполните форму, чтобы связаться со мной. Я отвечу так
@@ -118,7 +118,7 @@ const Contacts = (props) => {
           variant={0}
           rootBlock={{
             background:
-              "https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/vKMM-FAQ.png"
+              "https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/vKMM-FAQ.png",
           }}
           columns={"3/5"}
           rows={"2/3"}

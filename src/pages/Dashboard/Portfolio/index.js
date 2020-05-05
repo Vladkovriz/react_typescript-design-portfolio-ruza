@@ -11,7 +11,6 @@ const Portfolio = (props) => {
   const [categorie, setCategorie] = useState(null);
   return (
     <>
-      {console.log(categorie)}
       <NavigationMenu setCategorie={setCategorie} />
       <br />
       <ContentPortfolio

@@ -20,7 +20,6 @@ const useStyles = makeStyles((theme) => ({
         textTransform: "uppercase",
         fontStyle: "Regular",
         fontSize: "14px",
-
       },
     },
     "& li.defaultLink": {
@@ -33,56 +32,56 @@ const useStyles = makeStyles((theme) => ({
         bottom: "-10px",
         left: "0",
         opacity: "0",
-        transition: ".2s"
+        transition: ".2s",
       },
       "&:hover": {
         "&:before": {
           bottom: "0",
           left: "0",
           opacity: "1",
-          transition: ".2s"
-        }
+          transition: ".2s",
+        },
       },
-
     },
     "& li.activeLink": {
-      borderBottom: "1px solid #35D69B"
-    }
-  }
+      borderBottom: "1px solid #35D69B",
+    },
+  },
 }));
 
 const menuListLink = [
   {
     link: path.HOME,
-    name: "Главная"
+    name: "Главная",
   },
   {
     link: path.ABOUT_ME,
-    name: "Обо мне"
+    name: "Обо мне",
   },
   {
     link: path.PORTFOLIO,
-    name: "Портфолио"
+    name: "Портфолио",
   },
   {
     link: path.FAQ,
-    name: "FAQ"
+    name: "FAQ",
   },
   {
     link: path.CONTACTS,
-    name: "Контакты"
-  }
+    name: "Контакты",
+  },
 ];
 
 export const NavigationMenu = (props) => {
   const classes = useStyles();
-  console.log(props);
   return (
     <List className={classes.menuList}>
       {menuListLink.map((item, id) => (
         <ListItem
           key={id}
-          className={props.location.pathname === item.link ? "activeLink" : "defaultLink"}
+          className={
+            props.location.pathname === item.link ? "activeLink" : "defaultLink"
+          }
         >
           <Link to={item.link}>{item.name}</Link>
         </ListItem>

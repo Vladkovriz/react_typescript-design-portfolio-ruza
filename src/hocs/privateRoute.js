@@ -16,16 +16,16 @@ export const withAuth = (WrappedComponent) => {
 
     const chechAuth = () => {
       // console.log("TRY", token);
-      console.log("window.localStorage", window.localStorage);
-      console.log(
-        "window.localStorage.getItem",
-        window.localStorage.getItem("token")
-      );
-      console.log("window.sessionStorage", window.sessionStorage);
-      console.log(
-        "window.sessionStorage.getItem",
-        window.sessionStorage.getItem("token")
-      );
+      // console.log("window.localStorage", window.localStorage);
+      // console.log(
+      //   "window.localStorage.getItem",
+      //   window.localStorage.getItem("token")
+      // );
+      // console.log("window.sessionStorage", window.sessionStorage);
+      // console.log(
+      //   "window.sessionStorage.getItem",
+      //   window.sessionStorage.getItem("token")
+      // );
 
       const token = false;
       //     JSON.parse(
@@ -34,7 +34,7 @@ export const withAuth = (WrappedComponent) => {
       //     ) !== null ? window.localStorage.getItem("token") ||
       //     window.sessionStorage.getItem("token")
       // ).token : false;
-      console.log("token", token);
+      // console.log("token", token);
       // const payload = await props.authorization({ variables: { token } });
       // if (payload.data.verifyToken.payload) {
       if (token) {
@@ -43,7 +43,7 @@ export const withAuth = (WrappedComponent) => {
         setIsAuth(false);
       }
     };
-    console.log(isAuth);
+    // console.log(isAuth);
     return <WrappedComponent isAuth={isAuth} {...props} />;
   };
   return ProtectedRoute;

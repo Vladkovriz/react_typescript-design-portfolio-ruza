@@ -13,7 +13,7 @@ import icons from "../../constants/index.js";
 const useStyles = makeStyles((theme) => ({
   menuListIcon: {
     display: "flex",
-    maxWidth: "172px",
+    maxWidth: "205px",
     justifyContent: "space-between",
     position: "relative",
     padding: theme.spacing(1, 0, 1, 1),
@@ -23,83 +23,113 @@ const useStyles = makeStyles((theme) => ({
       height: "38px",
       left: "0",
       backgroundColor: "black",
-      position: "absolute"
+      position: "absolute",
     },
     "& > li": {
       padding: theme.spacing(1),
-        "& a": {
-            backgroundRepeat: "no-repeat",
-            width: "18px",
-            height: "18px",
-            transition: ".3s",
-            objectFit: "contain",
-            backgroundSize: "contain",
-            "&:hover": {
-                transition: ".3s",
-            }
+      "& a": {
+        backgroundRepeat: "no-repeat",
+        width: "18px",
+        height: "18px",
+        transition: ".3s",
+        objectFit: "contain",
+        backgroundSize: "contain",
+        "&:hover": {
+          transition: ".3s",
         },
-        "& a.Wa": {
-          backgroundImage: `url(${icons.WA})`,
-          "&:hover": {
-              backgroundImage: `url(${icons.activeWA})`,
-          }
+      },
+      "& a.Wa": {
+        backgroundImage: `url(${icons.WA})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeWA})`,
         },
-        "& a.Be": {
-            backgroundImage: `url(${icons.Be})`,
-            "&:hover": {
-                backgroundImage: `url(${icons.activeBe})`,
-            }
+      },
+      "& a.Be": {
+        backgroundImage: `url(${icons.Be})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeBe})`,
         },
-        "& a.Viber": {
-            backgroundImage: `url(${icons.Viber})`,
-            "&:hover": {
-                backgroundImage: `url(${icons.activeViber})`,
-            }
+      },
+      "& a.Viber": {
+        backgroundImage: `url(${icons.Viber})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeViber})`,
         },
-        "& a.Telegram": {
-            backgroundImage: `url(${icons.Telegram})`,
-            "&:hover": {
-                backgroundImage: `url(${icons.activeTelegram})`,
-            }
+      },
+      "& a.Telegram": {
+        backgroundImage: `url(${icons.Telegram})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeTelegram})`,
         },
-        "& a.Instagram": {
-            backgroundImage: `url(${icons.Instagram})`,
-            "&:hover": {
-                backgroundImage: `url(${icons.activeInstagram })`,
-            }
+      },
+      "& a.Instagram": {
+        backgroundImage: `url(${icons.Instagram})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeInstagram})`,
         },
-        "& a.In": {
-            backgroundImage: `url(${icons.In})`,
-            "&:hover": {
-                backgroundImage: `url(${icons.activeIn})`,
-            }
-        }
-    }
-  }
+      },
+      "& a.In": {
+        backgroundImage: `url(${icons.In})`,
+        "&:hover": {
+          backgroundImage: `url(${icons.activeIn})`,
+        },
+      },
+    },
+  },
 }));
 
-export const MenuListIcons= (props) => {
+export const MenuListIcons = (props) => {
   const classes = useStyles();
   return (
     <List className={classes.menuListIcon}>
-        {console.log(icons.Be)}
       <ListItem>
-        <Link href={social.WhatsApp} target="_blank" variant="body2" className={"Wa"}/>
+        <Link
+          href={social.WhatsApp}
+          target="_blank"
+          variant="body2"
+          className={"Wa"}
+        />
       </ListItem>
       <ListItem>
-        <Link href={social.Behance} target="_blank" variant="body2" className={"Be"} style={{width: "24px", height: "24px"}}/>
+        <Link
+          href={social.Telegram}
+          target="_blank"
+          variant="body2"
+          className={"Telegram"}
+        />
       </ListItem>{" "}
       <ListItem>
-        <Link href={social.Viber} target="_blank" variant="body2" className={"Viber"}/>
+        <Link
+          href={social.Viber}
+          target="_blank"
+          variant="body2"
+          className={"Viber"}
+        />
       </ListItem>
       <ListItem>
-        <Link href={social.Telegram} target="_blank" variant="body2" className={"Telegram"}/>
+        <Link
+          href={social.Behance}
+          target="_blank"
+          variant="body2"
+          className={"Be"}
+          style={{ width: "24px", height: "24px" }}
+        />
       </ListItem>{" "}
       <ListItem>
-        <Link href={social.Instagram} target="_blank" variant="body2" className={"Instagram"}/>
+        <Link
+          href={social.Instagram}
+          target="_blank"
+          variant="body2"
+          className={"Instagram"}
+        />
       </ListItem>
       <ListItem>
-          <Link href={social.LinkedIn} target="_blank" variant="body2" className={"In"}/>
+        <Link
+          href={social.LinkedIn}
+          target="_blank"
+          variant="body2"
+          className={"In"}
+        />
       </ListItem>
     </List>
   );

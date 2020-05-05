@@ -1,7 +1,7 @@
 import React from "react";
 
 import { makeStyles } from "@material-ui/core/styles";
-import { Box, Button, Icon } from "@material-ui/core";
+import { Box, Button } from "@material-ui/core";
 
 import IconButton from "@material-ui/core/IconButton";
 // import { Button } from "components/Button";
@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr 1fr",
     gridTemplateRows: "1fr 1fr",
-    gridGap: "10px"
+    gridGap: "10px",
   },
   content: {
     padding: "20px 30px ",
@@ -26,24 +26,24 @@ const useStyles = makeStyles((theme) => ({
     gridRow: "1/3",
     display: "flex",
     justifyContent: "space-around",
-    backgroundColor: "#EEEEEE"
+    backgroundColor: "#EEEEEE",
   },
   headText: {
     fontFamily: "Fira Sans",
     fontSize: "18px",
     lineHeight: "22px",
-    margin: "0"
+    margin: "0",
   },
   text: {
     fontFamily: "Fira Sans",
-    fontSize: "12px"
+    fontSize: "12px",
   },
   greenText: {
-    color: "#35D69B"
+    color: "#35D69B",
   },
   headSkilText: {
     fontFamily: "Fira Sans",
-    fontSize: "18px"
+    fontSize: "18px",
   },
   button: {
     width: "calc(50% - 10px)",
@@ -55,8 +55,8 @@ const useStyles = makeStyles((theme) => ({
     padding: "6px",
     borderRadius: "0",
     whiteSpace: "nowrap",
-    textTransform: "none"
-  }
+    textTransform: "none",
+  },
 }));
 const AboutMe = (props) => {
   const classes = useStyles();
@@ -69,7 +69,7 @@ const AboutMe = (props) => {
           minHeight: "445px",
           backgroundRepeat: "no-repeat",
           backgroundImage:
-            "url(https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/d3oX-%D0%91%D0%BB%D0%BE%D0%BA%20_%D0%9E%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5_.png)"
+            "url(https://uploads.codesandbox.io/uploads/user/181a3a32-9208-4242-8f7f-410dc2dc386e/d3oX-%D0%91%D0%BB%D0%BE%D0%BA%20_%D0%9E%D0%B1%D0%BE%20%D0%BC%D0%BD%D0%B5_.png)",
         }}
       ></Box>
       <Box style={{}} className={classes.content}>

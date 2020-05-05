@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     gridTemplateColumns: "repeat(auto-fit,minmax(180px, 220px))",
     // gridTemplateRows: "repeat(3,minmax(180px, 220px))",
     gridAutoFlow: "row dense",
-    gridGap: "10px"
+    gridGap: "10px",
   },
   item: {
     minHeight: "216px",
@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     "&:hover .infoContent": {
       bottom: "0",
       opacity: "1",
-      transition: ".5s"
+      transition: ".5s",
     },
     "&:hover .maskContent": {
       opacity: "1",
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
       left: "0",
       bottom: "-67px",
       transition: ".5s",
-      opacity: "0"
+      opacity: "0",
     },
     "& > .maskContent": {
       width: "100%",
@@ -54,21 +54,18 @@ const useStyles = makeStyles((theme) => ({
       left: "0",
       transition: ".5s",
       opacity: ".5",
-
-    }
-  }
+    },
+  },
 }));
 
 export const ContentPortfolio = (props) => {
   const [changedData, setChangedData] = useState([]);
-  console.log(props.data);
   useEffect(() => {
     const IData = [[]];
 
     let a = 0;
     for (let i = 1; i <= props.data.length; i++) {
       if (i % 9 === 0) {
-        console.log(i);
         IData.push([]);
         a++;
       }
@@ -83,7 +80,6 @@ export const ContentPortfolio = (props) => {
       {changedData.map((elem, index) =>
         elem.map((item, id) => (
           <>
-            {console.log(changedData)}
             <Box
               className={classes.item}
               key={`${index}-${id}`}
@@ -107,7 +103,7 @@ export const ContentPortfolio = (props) => {
                     ? `${3 + 4 * index}/${4 + 4 * index}`
                     : id === 7
                     ? `${3 + 4 * index}/${5 + 4 * index}`
-                    : ""
+                    : "",
               }}
             >
               <Box
@@ -115,7 +111,7 @@ export const ContentPortfolio = (props) => {
                 style={{
                   background: `url(${item.rootBlock.background})`,
                   backgroundSize: "cover",
-                  backgroundRepeat: "no-repeat"
+                  backgroundRepeat: "no-repeat",
                 }}
               ></Box>
               <Box className={"infoContent"}>

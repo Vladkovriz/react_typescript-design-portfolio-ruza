@@ -4,7 +4,7 @@ import {
   Route,
   // Link,
   Switch,
-  Redirect
+  Redirect,
 } from "react-router-dom";
 import * as path from "../../constants/routes";
 // import SignUp from "pages/SignUp";
@@ -20,7 +20,7 @@ import Contacts from "../Dashboard/Contacts/index";
 // import AdminPortfolio from "../Admin/Portfolio/index";
 
 // import CheckSignIn from "../CheckSignIn";
-
+import "../../index.css";
 const withRouter: React.FC = (props: any) => {
   return (
     <Switch>

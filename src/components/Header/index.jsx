@@ -16,40 +16,35 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     backgroundColor: "white",
     "& div": {
-      backgroundColor: "white"
-    }
+      backgroundColor: "white",
+    },
   },
   container: {
     maxWidth: "900px",
     width: "100%",
     margin: "0 auto",
-    boxShadow: "none"
+    boxShadow: "none",
   },
   toolbar: {
     height: "150px",
     display: "flex",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
   boxMenu: {
     display: "flex",
-    width: "auto"
+    width: "auto",
   },
   HeaderAvatar: {
     color: "black",
     width: "70px",
     height: "88px",
-    backgroundColor: deepOrange[500]
-  }
+    backgroundColor: deepOrange[500],
+  },
 }));
 
-interface HeaderProps {
-  location: any;
-}
-
-export const Header: React.FC<HeaderProps> = (props) => {
+export const Header = (props) => {
   const classes = useStyles();
   const { location } = props;
-  console.log(location);
   return (
     <div className={classes.root}>
       <AppBar position="static" className={classes.container}>
