@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bcb9cf20393b32beaff239ef034849d2",
+    "revision": "9bc08665fbdea89be6b3c9f79d45b573",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "f56f54430857a030cbc3",
+    "revision": "582dcf9fc88a128ac9d8",
     "url": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f56f54430857a030cbc3",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.7e7d2455.chunk.js"
+    "revision": "582dcf9fc88a128ac9d8",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.82902628.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
