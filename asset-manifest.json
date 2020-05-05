@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react_typescript-design-portfolio-ruza/static/css/main.ce05da51.chunk.css",
-    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.e8d69a0b.chunk.js",
-    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.e8d69a0b.chunk.js.map",
+    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.f24c74c9.chunk.js",
+    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.f24c74c9.chunk.js.map",
     "runtime-main.js": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js",
     "runtime-main.js.map": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js.map",
     "static/js/2.5eafafca.chunk.js": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js",
     "static/js/2.5eafafca.chunk.js.map": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.map",
     "index.html": "/react_typescript-design-portfolio-ruza/index.html",
-    "precache-manifest.3cbfafa0588498bc171784948359142b.js": "/react_typescript-design-portfolio-ruza/precache-manifest.3cbfafa0588498bc171784948359142b.js",
+    "precache-manifest.4e5b9e03b1f783363a6ad1f4e1ec159e.js": "/react_typescript-design-portfolio-ruza/precache-manifest.4e5b9e03b1f783363a6ad1f4e1ec159e.js",
     "service-worker.js": "/react_typescript-design-portfolio-ruza/service-worker.js",
     "static/css/main.ce05da51.chunk.css.map": "/react_typescript-design-portfolio-ruza/static/css/main.ce05da51.chunk.css.map",
     "static/js/2.5eafafca.chunk.js.LICENSE.txt": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.b2ac1100.js",
     "static/js/2.5eafafca.chunk.js",
     "static/css/main.ce05da51.chunk.css",
-    "static/js/main.e8d69a0b.chunk.js"
+    "static/js/main.f24c74c9.chunk.js"
   ]
 }
