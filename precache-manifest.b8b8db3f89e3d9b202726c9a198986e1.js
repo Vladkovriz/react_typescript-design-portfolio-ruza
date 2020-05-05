@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ba739cdf3782df3c6655c51ddb9fbb5",
+    "revision": "bcb9cf20393b32beaff239ef034849d2",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "d15d0f6e1a86e5b25101",
+    "revision": "f56f54430857a030cbc3",
     "url": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d15d0f6e1a86e5b25101",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.d31288bd.chunk.js"
+    "revision": "f56f54430857a030cbc3",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.7e7d2455.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/media/Black_Viber.228740d0.svg"
   },
   {
-    "revision": "2f7aa9348f75488ce4fb9db071aab49d",
-    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_WA.2f7aa934.png"
+    "revision": "dd0aac7fa1a4730cb8c2d3848439dcb5",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/Black_WA.dd0aac7f.svg"
   },
   {
     "revision": "8bba76c2d9cbfafb18b79360338ca113",
