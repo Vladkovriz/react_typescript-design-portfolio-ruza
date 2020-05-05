@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2ec5d5f143ff46be977eedb357487b2",
+    "revision": "0ba739cdf3782df3c6655c51ddb9fbb5",
     "url": "/react_typescript-design-portfolio-ruza/index.html"
   },
   {
-    "revision": "ea17d26aef68986d4f26",
+    "revision": "d15d0f6e1a86e5b25101",
     "url": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea17d26aef68986d4f26",
-    "url": "/react_typescript-design-portfolio-ruza/static/js/main.4a5394b5.chunk.js"
+    "revision": "d15d0f6e1a86e5b25101",
+    "url": "/react_typescript-design-portfolio-ruza/static/js/main.d31288bd.chunk.js"
   },
   {
     "revision": "f7d936759a414af513f5",
@@ -142,5 +142,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a08385259d78767267c3450a62bbd521",
     "url": "/react_typescript-design-portfolio-ruza/static/media/White_WA.a0838525.svg"
+  },
+  {
+    "revision": "9eac7364e7fba1b29b9498efe557f35d",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/logoBlack.9eac7364.png"
+  },
+  {
+    "revision": "5e02430fbc6323f08611b392f25e2713",
+    "url": "/react_typescript-design-portfolio-ruza/static/media/logoWhite.5e02430f.png"
   }
 ]);

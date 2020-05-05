@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css",
-    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.4a5394b5.chunk.js",
-    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.4a5394b5.chunk.js.map",
+    "main.js": "/react_typescript-design-portfolio-ruza/static/js/main.d31288bd.chunk.js",
+    "main.js.map": "/react_typescript-design-portfolio-ruza/static/js/main.d31288bd.chunk.js.map",
     "runtime-main.js": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js",
     "runtime-main.js.map": "/react_typescript-design-portfolio-ruza/static/js/runtime-main.b2ac1100.js.map",
     "static/js/2.5eafafca.chunk.js": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js",
     "static/js/2.5eafafca.chunk.js.map": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.map",
     "index.html": "/react_typescript-design-portfolio-ruza/index.html",
-    "precache-manifest.5ccb58aa5305d4431647e4b98adab53c.js": "/react_typescript-design-portfolio-ruza/precache-manifest.5ccb58aa5305d4431647e4b98adab53c.js",
+    "precache-manifest.3a638b3847a4786776f8c88a813b2926.js": "/react_typescript-design-portfolio-ruza/precache-manifest.3a638b3847a4786776f8c88a813b2926.js",
     "service-worker.js": "/react_typescript-design-portfolio-ruza/service-worker.js",
     "static/css/main.270e5a6d.chunk.css.map": "/react_typescript-design-portfolio-ruza/static/css/main.270e5a6d.chunk.css.map",
     "static/js/2.5eafafca.chunk.js.LICENSE.txt": "/react_typescript-design-portfolio-ruza/static/js/2.5eafafca.chunk.js.LICENSE.txt",
@@ -41,12 +41,14 @@
     "static/media/White_Instagram.svg": "/react_typescript-design-portfolio-ruza/static/media/White_Instagram.f8f77790.svg",
     "static/media/White_Telegram.svg": "/react_typescript-design-portfolio-ruza/static/media/White_Telegram.fd8b00c2.svg",
     "static/media/White_Viber.svg": "/react_typescript-design-portfolio-ruza/static/media/White_Viber.9775b4a6.svg",
-    "static/media/White_WA.svg": "/react_typescript-design-portfolio-ruza/static/media/White_WA.a0838525.svg"
+    "static/media/White_WA.svg": "/react_typescript-design-portfolio-ruza/static/media/White_WA.a0838525.svg",
+    "static/media/logoBlack.png": "/react_typescript-design-portfolio-ruza/static/media/logoBlack.9eac7364.png",
+    "static/media/logoWhite.png": "/react_typescript-design-portfolio-ruza/static/media/logoWhite.5e02430f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b2ac1100.js",
     "static/js/2.5eafafca.chunk.js",
     "static/css/main.270e5a6d.chunk.css",
-    "static/js/main.4a5394b5.chunk.js"
+    "static/js/main.d31288bd.chunk.js"
   ]
 }
