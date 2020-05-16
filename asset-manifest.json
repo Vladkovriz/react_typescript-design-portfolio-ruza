@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.76cec669.chunk.css",
-    "main.js": "/static/js/main.cf85bab5.chunk.js",
-    "main.js.map": "/static/js/main.cf85bab5.chunk.js.map",
+    "main.js": "/static/js/main.709db7f5.chunk.js",
+    "main.js.map": "/static/js/main.709db7f5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9423126.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9423126.js.map",
-    "static/js/2.561496be.chunk.js": "/static/js/2.561496be.chunk.js",
-    "static/js/2.561496be.chunk.js.map": "/static/js/2.561496be.chunk.js.map",
+    "static/js/2.7bb15d0c.chunk.js": "/static/js/2.7bb15d0c.chunk.js",
+    "static/js/2.7bb15d0c.chunk.js.map": "/static/js/2.7bb15d0c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b8af2f2136a95f8f1fceb0f8fa247919.js": "/precache-manifest.b8af2f2136a95f8f1fceb0f8fa247919.js",
+    "precache-manifest.4cb577ab97fe31a2a6825a6e73e2c301.js": "/precache-manifest.4cb577ab97fe31a2a6825a6e73e2c301.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.76cec669.chunk.css.map": "/static/css/main.76cec669.chunk.css.map",
-    "static/js/2.561496be.chunk.js.LICENSE.txt": "/static/js/2.561496be.chunk.js.LICENSE.txt",
+    "static/js/2.7bb15d0c.chunk.js.LICENSE.txt": "/static/js/2.7bb15d0c.chunk.js.LICENSE.txt",
     "static/media/Active_Be.png": "/static/media/Active_Be.10868ead.png",
     "static/media/Active_In.svg": "/static/media/Active_In.e6531bf0.svg",
     "static/media/Active_Insta.png": "/static/media/Active_Insta.eb7aa0d8.png",
@@ -84,6 +84,7 @@
     "static/media/Rectangle5_1.png": "/static/media/Rectangle5_1.e7b8471a.png",
     "static/media/Rectangle5_2.png": "/static/media/Rectangle5_2.665de4ab.png",
     "static/media/Ruza.png": "/static/media/Ruza.7631931b.png",
+    "static/media/RuzaPDF.pdf": "/static/media/RuzaPDF.a5016bdb.pdf",
     "static/media/Saqartvelo.jpg": "/static/media/Saqartvelo.8c622057.jpg",
     "static/media/White_In.svg": "/static/media/White_In.4998e068.svg",
     "static/media/White_Instagram.svg": "/static/media/White_Instagram.f8f77790.svg",
@@ -96,8 +97,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b9423126.js",
-    "static/js/2.561496be.chunk.js",
+    "static/js/2.7bb15d0c.chunk.js",
     "static/css/main.76cec669.chunk.css",
-    "static/js/main.cf85bab5.chunk.js"
+    "static/js/main.709db7f5.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c77069d567ce6932eedee23e10248c3",
+    "revision": "6e1b679310ea44b1162ac55e6762ac39",
     "url": "/index.html"
   },
   {
-    "revision": "ae1bd488ece94fcb7923",
+    "revision": "3d483399202912aea11b",
     "url": "/static/css/main.76cec669.chunk.css"
   },
   {
-    "revision": "249cbfb0482bbf790dbf",
-    "url": "/static/js/2.561496be.chunk.js"
+    "revision": "0ea5ff9e5eacaf486da8",
+    "url": "/static/js/2.7bb15d0c.chunk.js"
   },
   {
     "revision": "3adc01bea76e7956dc3633ee898f6936",
-    "url": "/static/js/2.561496be.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7bb15d0c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ae1bd488ece94fcb7923",
-    "url": "/static/js/main.cf85bab5.chunk.js"
+    "revision": "3d483399202912aea11b",
+    "url": "/static/js/main.709db7f5.chunk.js"
   },
   {
     "revision": "908d4022c2426ac3b0b8",
@@ -310,6 +310,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7631931b7b43bc2ff9ce317afcbbdad7",
     "url": "/static/media/Ruza.7631931b.png"
+  },
+  {
+    "revision": "a5016bdb0ae496362000822f2796e3b7",
+    "url": "/static/media/RuzaPDF.a5016bdb.pdf"
   },
   {
     "revision": "8c622057308cccf75e3c1430af90128c",
